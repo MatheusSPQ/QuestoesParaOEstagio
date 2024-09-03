@@ -1,5 +1,6 @@
 const faturamento = require('./questao3.json') // usando JSON
-const fat = faturamento.faturamento_diario; //apenas para simplificar a escrita
+const fat = faturamento; //apenas para simplificar a escrita
+
 
 function calculoFaturamento(fat){ //Fiz em uma unica função, pois pelo que interpretei o programa deve fazer as 3 'funções' ao mesmo tempo sempre. Assim evitando que percorra a array diversas vezes e perdendo tempo.
     var menor = { dia: -1, valor: 999999999999999}
